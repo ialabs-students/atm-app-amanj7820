@@ -61,25 +61,25 @@ public class ABCATM {
 			if(w>2000) {
 				w=w-2000;
 				count1++;
-			System.out.println("2000s:"+count1);
 			}
 			else if(w>=500 && w<2000) {
 				w=w-500;
 				count2++;
-			System.out.println("500s:"+count2);
 			}
 			else if(w>=200 && w<500) {
 				w=w-200;
 				count3++;
-			System.out.println("200s:"+count3);
 			}
 			else if(w>=100 &&w<200) {
 				w=w-100;
 				count4++;
-			System.out.println("100s:"+count4);
 			}
 
 			}
+			System.out.println("2000s:"+count1);
+			System.out.println("500s:"+count2);
+			System.out.println("200s:"+count3);
+			System.out.println("100s:"+count4);
 			System.out.println("Balance:");
 			a=a-count1;
 			b=b-count2;
