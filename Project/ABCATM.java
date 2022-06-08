@@ -58,7 +58,7 @@ public class ABCATM {
 			int count3=0;
 			int count4=0;
 			while(w!=0) {
-			if(w>2000) {
+			if(w>=2000) {
 				w=w-2000;
 				count1++;
 			}
